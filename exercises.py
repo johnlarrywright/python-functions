@@ -20,8 +20,17 @@ print(add(box_1,box_2))
 print(add(box_1,6))
 print(add(box_1,6))
 # print(add(box_1,6))
+print(add(box_1,6))
 
 #This function will add two numbers (the parameters, `num_1` and `num_2`) and return the sum of these two numbers. Invoke the function and assign it to a variable named `sum`.
+
+def dj_waves(num_1, num_2):
+    return num_1 + num_2
+add(box_1, box_2)
+sum = add(box_1, box_2)
+print(sum)
+
+
 
 #Print the sum variable to see your result.
 
@@ -30,7 +39,15 @@ print(add(box_1,6))
 #Function - subtract
 #Create a function named `subtract` which will take two parameters: `num_1` and `num_2`.
 
+    
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
+def subtract(num_1, num_2):
+    return num_1 - num_2
+subtract(box_1, box_2)
+difference = subtract(box_1, box_2)
+print(difference)
+    
+
 
 #Print the difference variable to see your result.
 
@@ -42,7 +59,11 @@ print(add(box_1,6))
 #This function will multiply two numbers and return the product of these two numbers. Invoke the function and assign it to a variable named `product`.
 
 #Print the product variable to see your result.
-
+def multiply(num_1, num_2):
+    return num_1 * num_2
+multiply(box_1, box_2)
+product = multiply(box_1, box_2)
+print(product)
 
 #5
 #Function - divide
@@ -50,7 +71,11 @@ print(add(box_1,6))
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
-
+def divide(num_1, num_2):
+    return num_1 / num_2
+divide(box_1, box_2)
+quotient = divide(box_1, box_2)
+print(quotient)
 
 #6
 #Function - check_sum
@@ -58,6 +83,11 @@ print(add(box_1,6))
 #This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value stored in the sum variable from exercise 2. Invoke this function and assign it to a variable named `da_diva`.
 
 #Print the da_diva variable to see your result.
+def check_sum(x):
+    return "Mariah Carey has been married" + ' ' + str(x) + ' ' + 'amount of times'
+check_sum(sum)
+da_diva = check_sum(sum)
+print(da_diva)
 
 
 #7
